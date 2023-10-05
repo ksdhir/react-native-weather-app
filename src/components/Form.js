@@ -3,12 +3,7 @@ import { StyleSheet, Text, TextInput, View } from 'react-native'
 const Form = props => (
   <View style={styles.header}>
     <Text style={styles.title}>Open Weather App</Text>
-    <TextInput
-      onChangeText={props.onChangeText}
-      onEndEditing={props.onSubmit}
-      placeholder='Input a city name'
-      style={styles.textInput}
-    />
+    <TextInput placeholder='Input a city name' style={styles.textInput} />
   </View>
 )
 
